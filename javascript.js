@@ -1,2 +1,0 @@
-    <script src="https://www.google.com/uds/api?file=uds.js&v=1.0&key=AIzaSyC80ztmgxC_HbDOKQerl0KKDmMmX45WKtA" type="text/javascript"></script>
-    <script language="Javascript" type="text/javascript"> //<![CDATA[ // Create a search control var searchControl = new GSearchControl(); // create a search object searchControl.addSearcher(new GwebSearch()); // tell Google where to draw the searchbox searchControl.draw(document.getElementById("search-box")); } GSearch.setOnLoadCallback(OnLoad); //]]> </script>
