@@ -1,12 +1,13 @@
-h1 {
-	font-family: oswald;
+pre {
+	color: black ;
+	font-family: oswald, sans-serif ;
 }
-h3 {
-	font-family: oswald;
-}
+
 p {
-	font-family: roboto, sans-serif;
+	color: black ;
+	font-family: roboto, sans-serif ;
 }
 a {
-	color: black;
+	color: black ;
+	font-family: roboto, sans-serif ;
 }
