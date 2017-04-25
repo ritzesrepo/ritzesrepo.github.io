@@ -7,7 +7,7 @@
       function startTime() {
         var today = new Date();
         var h = today.getHours();
-		h = checkHours(h);
+	h = checkHours(h);
         var m = today.getMinutes();
         m = checkMinutes(m);
         document.getElementById('time').innerHTML = h + ":" + m + ", ";
@@ -37,11 +37,6 @@
       </pre>
     </center>
   </body>
-  <body onload="clockFunction(); setInterval('clockFunction()', 1000 )">
-    <center>
-       <h1 id="clock"></h1>
-    </center>  
-  </body>
   <body onload="startTime()">
     <center>
       <a>It is curently; </a> <a id="time"></a> <a>Today's date is; </a> <a id="date"></a><a> </a>
@@ -53,6 +48,8 @@
   </body>
   <body>
     <center>
+      <br>
+      <br>
       <a>~{</a><a href="https://ritzesrepo.github.io">Home</a><a>}~ &nbsp ~{</a><a href="https://ritzesrepo.github.io/about">About</a><a>}~ &nbsp ~{</a><a href="https://ritzesrepo.github.io/sites">Sites</a><a>}~ &nbsp ~{</a><a href="https://ritzesrepo.github.io/games">Games</a><a>}~</a>
       <br>
       <br>
