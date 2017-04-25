@@ -2,7 +2,13 @@ pre {
 	color: black ;
 }
 
-p, a {
+a {
 	color: black ;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif ;
+	text-decoration: none ;
+}
+
+p {
+	color: black ;
+	font-family: 'Roboto', sans-serif ;
 }
