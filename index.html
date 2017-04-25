@@ -3,6 +3,25 @@
   <head>
     <link href="index.css" type=text/css rel=stylesheet>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Oswald" rel="stylesheet">
+    <script>
+      function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+		h = checkHours(h);
+        var m = today.getMinutes();
+        m = checkMinutes(m);
+        document.getElementById('time').innerHTML = h + ":" + m + ", ";
+        var t = setTimeout(startTime, 500);
+      }
+      function checkMinutes(i) {
+        if (i < 10) {i = "0" + i};
+        return i;
+      }
+      function checkHours(l) {
+        if (l > 12) {l = l - 12};
+        return l;
+      } 
+    </script>  
   </head>
   <body>
     <center>
@@ -22,6 +41,15 @@
     <center>
        <h1 id="clock"></h1>
     </center>  
+  </body>
+  <body onload="startTime()">
+    <center>
+      <a>It is curently; </a> <a id="time"></a> <a>Today's date is; </a> <a id="date"></a><a> </a>
+      <script>
+          var d = new Date();
+          document.getElementById("date").innerHTML = d.toDateString();
+      </script>
+    </center>
   </body>
   <body>
     <center>
