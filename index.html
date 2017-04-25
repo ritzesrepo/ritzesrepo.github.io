@@ -39,7 +39,10 @@
   </body>
   <body onload="startTime()">
     <center>
-      <a id="time"></a><a> id="date"></a>
+      <div>
+        <a id="time"></a>
+	<a id="date"></a>
+      </div>
       <script>
           var d = new Date();
           document.getElementById("date").innerHTML = d.toDateString();
