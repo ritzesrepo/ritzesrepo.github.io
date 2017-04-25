@@ -1,13 +1,8 @@
-
 pre {
 	color: black ;
 }
 
-p {
-	color: black ;
-	font-family: 'Roboto', sans-serif;
-}
-a {
+p a {
 	color: black ;
 	font-family: 'Roboto', sans-serif;
 }
