@@ -2,7 +2,7 @@ pre {
 	color: black ;
 }
 
-p a {
+p, a {
 	color: black ;
 	font-family: 'Roboto', sans-serif;
 }
