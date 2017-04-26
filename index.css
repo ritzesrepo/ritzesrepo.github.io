@@ -22,7 +22,9 @@ h1 {
 }
 
 #middle {
-        width: 50%;
-        margin: 0 auto;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 	
