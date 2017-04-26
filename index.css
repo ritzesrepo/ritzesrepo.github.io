@@ -22,6 +22,7 @@ h1 {
 }
 
 .middle {
-	margin: auto;
+        width: 50%;
+        margin: 0 auto;
 }
 	
