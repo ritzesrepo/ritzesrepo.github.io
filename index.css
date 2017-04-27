@@ -1,3 +1,8 @@
+body  {
+    background-image: url("background.png");
+    background-color: #ffffffff;
+}
+
 pre {
 	color: black;
         font-weight: bold;
